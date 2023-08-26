@@ -9,7 +9,7 @@ class User {
         this.gender = gender
         this.id = User.id++
         this.isadmin = isadmin
-        this.contacts =[]
+        this.contacts = []
     }
     static newAdmin(name, age, gender) {
         try {

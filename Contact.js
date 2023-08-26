@@ -3,6 +3,7 @@ const contactInfo = require("./ContactInfo")
 class Contact{
     static id = 0 
     constructor(name){
+       
         
         this.name = name
         this.contactInfos = []
